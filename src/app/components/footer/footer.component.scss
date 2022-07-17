@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2e2d2d;
+  padding: 30px;
+  h3 {
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  p {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: #a5a0a0;
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    .about-us {
+      margin: 15px 0;
+    }
+  }
+}

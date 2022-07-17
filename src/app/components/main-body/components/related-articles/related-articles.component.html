@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Related Articles</h2>
+  <div class="article-container">
+    <div class="article" *ngFor="let item of relatedArticle">
+      <img [src]="item.image" alt="">
+      <div class="description">
+        <h3>{{item.title}}</h3>
+        <p>{{item.description}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

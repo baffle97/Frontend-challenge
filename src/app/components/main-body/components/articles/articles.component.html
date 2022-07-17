@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>More in this series</h2>
+  <div class="article-container">
+    <div class="article" *ngFor="let item of articleArray">
+      <img [src]="item.image" alt="">
+      <div class="description">
+        <h1>{{item.title}}</h1>
+        <p>{{item.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

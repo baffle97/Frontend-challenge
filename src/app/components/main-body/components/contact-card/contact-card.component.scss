@@ -1,0 +1,117 @@
+.container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: rgb(197, 197, 197);
+  margin-top: 20px;
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(225, 230, 230);
+  }
+  .background {
+    width: 100%;
+    height: 100px;
+  }
+  .person {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    transform: translateY(-30px);
+  }
+  .info {
+    background-color: rgb(225, 230, 230);
+    .details {
+      display: flex;
+      justify-content: flex-start;
+      h4 {
+        margin-left: 20px;
+        margin-right: 5px;
+        width: 75px;
+      }
+      p {
+        margin-left: 20px;
+        text-align: start;
+        width: 150px;
+      }
+    }
+  }
+
+  .message-container {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h3 {
+      font-weight: bolder;
+      font-size: large;
+    }
+    .message-body {
+      width: 100%;
+      margin-left: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      label {
+        color: rgb(109, 109, 109);
+      }
+      input {
+        width: 82%;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+      }
+      textarea {
+        border: 0;
+        border-radius: 5px;
+      }
+    }
+    button {
+      margin-top: 20px;
+      width: 80%;
+      height: 30px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold;
+      color: whitesmoke;
+      background-color: rgb(92, 224, 180);
+      border: 0;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      transition: 0.2s all ease-in;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .direction {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #e1e6e6;
+    h3 {
+      padding-top: 10px;
+      width: 100%;
+      text-align: center;
+      font-weight: bolder;
+      font-size: large;
+    }
+    .map {
+      img {
+        width: 100%;
+        height: 150px;
+      }
+    }
+    .address {
+      width: 100%;
+      margin: 20px 20px;
+      p {
+        max-width: 100px;
+      }
+    }
+  }
+}
