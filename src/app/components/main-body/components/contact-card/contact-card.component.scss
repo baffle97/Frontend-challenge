@@ -64,10 +64,20 @@
         height: 30px;
         border: 0;
         border-radius: 5px;
+        font-size: medium;
+        padding: 5px;
+        &:focus-visible {
+          outline: 2px solid rgb(92, 224, 180);
+        }
       }
       textarea {
         border: 0;
+        font-size: medium;
+        padding: 5px;
         border-radius: 5px;
+        &:focus-visible {
+          outline: 2px solid rgb(92, 224, 180);
+        }
       }
     }
     button {
@@ -77,7 +87,7 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: bold;
-      color: whitesmoke;
+      color: rgb(255, 255, 255);
       background-color: rgb(92, 224, 180);
       border: 0;
       border-radius: 5px;
